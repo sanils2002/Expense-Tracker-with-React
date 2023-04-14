@@ -6,6 +6,12 @@
   background-image: url("./bg.png");
 } */
 
+body {
+  background-image: url(./bg.png);
+  background-size: auto;
+  /* opacity: 0.5; */
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
