@@ -1,5 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 
 import { AppProvider } from './context/AppContext';
 import Budget from './components/Budget';
@@ -11,8 +12,8 @@ import RemainingBudget from './components/Remaining';
 const App = () => {
 	return (
 		<AppProvider>
-			<div className='container'>
-				<h1 className='mt-3'>My Budget Planner</h1>
+			<div className='container app-cont'>
+				<h1 className='mt-3'>Expense Tracker</h1>
 				<div className='row mt-3'>
 					<div className='col-sm'>
 						<Budget />
